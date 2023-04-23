@@ -3,7 +3,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 2rem;    
-    background-color: white;
+    background-color: rgb(154, 154, 154);
 }
 
 .container{
@@ -14,5 +14,33 @@ body{
     flex-direction: column;
     justify-content: left;
     align-items: top;
+}
+.hiBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+.loBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: colume;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background-color: red;
 }
 
